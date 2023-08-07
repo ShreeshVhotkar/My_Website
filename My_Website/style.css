@@ -1,0 +1,265 @@
+.hiding_div {
+    display:block;
+} 
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px 0px 0px 0px;
+    position:relative;
+}
+
+.sections {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(-145deg,#25408f,#005e91 45%,#005e91 55%,#003592);
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+img {
+    max-width: 100%; 
+    height: auto;    
+    border: 2px solid gray; 
+    margin: 0px;    
+}
+
+.the_major_divs {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: rgb(174, 199, 250);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+
+
+.the_major_divs h2 {
+    color: rgb(124, 168, 255);
+}
+
+.sections h2 {
+    color: rgb(207, 174, 8);
+}
+
+
+h3 {
+    text-align: center;
+}
+
+
+
+#header {
+    position: sticky;
+    top: 0;
+}
+
+.progress-container {
+    height: 5px;
+    width: 100%;
+}
+
+.progress-bar {
+    height: 5px;
+    background-color: rgb(1, 20, 39);
+}
+
+#nav_list {   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    font-family: 'Montserrat', sans -serif;
+}
+
+.header_elements {
+   float: right;
+}
+
+.header_elements {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1px 2px;
+    text-decoration: none;
+}
+
+.header_elements a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 20px 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#header_aboutMe a{
+    color: rgb(0, 0, 0);
+}
+
+#header_activities a{
+    color: black;
+    text-align:center;
+}
+
+#header_accomplishments a{
+    color: rgb(0, 0, 0);
+}
+
+#me_image_div {
+    text-align: center;
+}
+
+#Hi_Iam_Michael {
+    width:250px;
+    text-align: center;
+}
+
+#Hi_Iam_Michael p {
+    color: white;
+    font-weight: bold;
+    font-size: 35px; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+#Hi {
+    margin-bottom: 15px;
+}
+#Iam_Michael {
+    margin-top: 15px;
+}
+
+#about_me {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#about_des {
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    text-align: justify;
+}
+
+#about_des p{
+    width: 500px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tales{
+    display: flex;
+    justify-content: space-around;
+}
+
+.the_boxes {
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+}
+
+.the_boxes p {
+    width: 400px;
+    font-size: 15px;
+    text-align: justify;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
+.the_descriptions{
+    text-align: center;
+}
+
+#academics_1 {
+    display:flex;
+    justify-content: flex-start;
+}
+
+#main_list {
+    display:flex;
+    flex-wrap: wrap;
+    flex-grow: 2;
+}
+ #list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+
+#big_list {
+    display:flex;
+    flex-direction: row;
+}
+
+.grade_names {
+    color:rgb(207, 174, 8);
+    font-size: 18px;
+}
+
+#academics_1 img{
+    width: 450px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.containers_flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.clubs {
+    font-size: 12px;
+    width: 225px;
+    text-align: center;
+}
+
+.case_titles {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.awards {
+    font-size: 12px;
+    width: 200px;
+    text-align: center;
+}
+
+.award_icons {
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.icons {
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(207, 174, 8);
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
